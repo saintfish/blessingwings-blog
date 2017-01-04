@@ -1,0 +1,26 @@
+# Messages for localization
+# see description here: https://tuananh.org/2014/08/13/localization-with-jekyll/
+
+locales:
+  # English translation
+  # -------------------
+  en: &DEFAULT_EN
+    overview: "Overview"
+    toc: "Table of Contents"
+    written_by: "Written by"
+    updated: "Updated"
+    share: "Share on"
+  en_US:
+    <<: *DEFAULT_EN     # use English translation for en_US
+  en_UK:
+    <<: *DEFAULT_EN     # use English translation for en_UK
+
+  # Chinese translation
+  zh: &DEFAULT_ZH
+    overview: "主頁"
+    toc: "目錄"
+    written_by: "作者"
+    updated: "更新时间"
+    share: "分享到"
+  zh_TW:
+    <<: *DEFAULT_ZH
