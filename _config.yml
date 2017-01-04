@@ -14,7 +14,7 @@ feed:
 sass:
   sass_dir: _sass
   style: compressed
-permalink: /:year-:month-:day-:title.html
+permalink: /:year-:month/:day-:title.html
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
@@ -32,6 +32,7 @@ owner:
   google:
     ad-client:
     ad-slot:
+    analytics-tracking-id: UA-89829461-1
   bio:
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
