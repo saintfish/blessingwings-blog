@@ -23,6 +23,16 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
+collections:
+  redirects:
+    output: true
+    permalink: /go/:path/
+
+defaults:
+  - scope:
+      type: redirects
+    values:
+      layout: redirect
 
 # Site owner
 owner:
