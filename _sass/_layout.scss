@@ -33,6 +33,17 @@
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
+.site-title-banner {
+	@include row;
+	@include media($large) {
+		@include span-columns(4);
+	}
+	height: $masthead-height;
+	text-decoration: none;
+}
+.site-title-banner img {
+	height: $masthead-height;
+}
 
 
 /*

@@ -2,7 +2,8 @@
 
 title: "Blessing Wings"
 description: "讓恩典乘著祝福之翼飛向你！"
-logo: logo.jpg
+logo: logo.png
+banner: logo-banner.png
 teaser: teaser-1200x750.gif  # 1200x750 px default teaser image used in image archive grid
 locale: zh_TW
 url:
