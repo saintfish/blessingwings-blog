@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 斷捨離 容易麼 (1)
+title: 斷捨離(1) 容易麼？
 image:
   teaser: "2017-02/cut-throw-leave-teaser.jpg"
 author: wei
